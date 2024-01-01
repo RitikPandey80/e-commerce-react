@@ -1,0 +1,32 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer components {
+    .icon__wrapper{
+        @apply border border-gray-500 rounded-full w-[50px] h-[50px] 
+        place-items-center grid text-[28px]
+    }
+    .feature_btn{
+        @apply bg-accent text-white px-4 py-1 rounded-full hover:bg-accentDark;
+    }
+    body {
+        background-color: #e0e0d1;
+    }
+    .image {
+        width: 40px;
+        height: 40px;
+        border-radius: 50%;
+    }
+    .hover05:hover {
+        margin-left: 30px;
+        -webkit-transform: scale(1.5);
+        transform: scale(1.5);
+        -webkit-transition: .3s ease-in-out;
+        transition: .3s ease-in-out;
+    }
+    .rule {
+        margin-top: 12px;
+        border: 2px solid gray;
+    }
+}
